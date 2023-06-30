@@ -21,3 +21,7 @@ jobs:
           username: napa500
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /cicd-laravel.napaautomotive.uz/
+
+      - name: Debug deployed directory contents
+        run: |
+          ls -la /cicd-laravel.napaautomotive.uz/
