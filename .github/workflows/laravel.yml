@@ -16,3 +16,5 @@ jobs:
           server-dir: /cicd-laravel.napaautomotive.uz/
       - name: Copy .env.example to .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+      - name: Copy .env.example to .env
+        run: cp .env.example .env
