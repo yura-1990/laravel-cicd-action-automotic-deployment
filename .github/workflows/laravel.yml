@@ -14,4 +14,4 @@ jobs:
           server: 176.96.243.100
           username: napa500
           password: ${{ secrets.FTP_PASSWORD }}
-          server_dir: /cicd-laravel.napaautomotive.uz
+          server_dir: /cicd-laravel.napaautomotive.uz/
